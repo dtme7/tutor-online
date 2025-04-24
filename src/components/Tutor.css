@@ -1,0 +1,83 @@
+.tutors {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px 35px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.tutor-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #3bb54a;
+}
+
+.tutors h2 {
+  margin: 0 0 10px;
+}
+
+.rating {
+  color: #f9a825;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tutors p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.check-list {
+  margin-top: 15px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.check-list li::before {
+  content: "✔️";
+  margin-right: 5px;
+  color: green;
+}
+.tutor-card-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tutor-info {
+  flex-grow: 1;
+}
+
+.tutor-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.contact-button {
+  background-color: #3bb54a;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-button:hover {
+  background-color: #34a240;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
