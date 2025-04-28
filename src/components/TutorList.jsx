@@ -1,6 +1,6 @@
 import React from "react";
 import "./Tutorlist.css";
-import data from "./data.json";
+import data from "../data.json";
 import { useNavigate } from "react-router-dom";
 
 function TutorList() {
